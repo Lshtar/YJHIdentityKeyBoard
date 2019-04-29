@@ -15,6 +15,8 @@
 		CCECBCED20C4D2500044186D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBCEC20C4D2500044186D /* main.m */; };
 		CCECBCF720C4D2500044186D /* YJHIdentityKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBCF620C4D2500044186D /* YJHIdentityKeyBoardTests.m */; };
 		CCECBD0220C4D2500044186D /* YJHIdentityKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBD0120C4D2500044186D /* YJHIdentityKeyBoardUITests.m */; };
+		CCECBD1120C4D3160044186D /* YJHIdentityKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBD1020C4D3160044186D /* YJHIdentityKeyBoardView.m */; };
+		CCECBD1820C4EF130044186D /* NSString+YJHRegularCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBD1720C4EF130044186D /* NSString+YJHRegularCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CCECBCFD20C4D2500044186D /* YJHIdentityKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJHIdentityKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCECBD0120C4D2500044186D /* YJHIdentityKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHIdentityKeyBoardUITests.m; sourceTree = "<group>"; };
 		CCECBD0320C4D2500044186D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCECBD0F20C4D3160044186D /* YJHIdentityKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHIdentityKeyBoardView.h; sourceTree = "<group>"; };
+		CCECBD1020C4D3160044186D /* YJHIdentityKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHIdentityKeyBoardView.m; sourceTree = "<group>"; };
+		CCECBD1620C4EF130044186D /* NSString+YJHRegularCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YJHRegularCheck.h"; sourceTree = "<group>"; };
+		CCECBD1720C4EF130044186D /* NSString+YJHRegularCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YJHRegularCheck.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				CCECBCDD20C4D24F0044186D /* AppDelegate.h */,
 				CCECBCDE20C4D24F0044186D /* AppDelegate.m */,
+				CCECBD0F20C4D3160044186D /* YJHIdentityKeyBoardView.h */,
+				CCECBD1020C4D3160044186D /* YJHIdentityKeyBoardView.m */,
+				CCECBD1620C4EF130044186D /* NSString+YJHRegularCheck.h */,
+				CCECBD1720C4EF130044186D /* NSString+YJHRegularCheck.m */,
 				CCECBCE020C4D24F0044186D /* ViewController.h */,
 				CCECBCE120C4D24F0044186D /* ViewController.m */,
 				CCECBCE320C4D24F0044186D /* Main.storyboard */,
@@ -263,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCECBCE220C4D24F0044186D /* ViewController.m in Sources */,
+				CCECBD1820C4EF130044186D /* NSString+YJHRegularCheck.m in Sources */,
+				CCECBD1120C4D3160044186D /* YJHIdentityKeyBoardView.m in Sources */,
 				CCECBCED20C4D2500044186D /* main.m in Sources */,
 				CCECBCDF20C4D24F0044186D /* AppDelegate.m in Sources */,
 			);
